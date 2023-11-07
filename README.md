@@ -15,3 +15,23 @@ The following techniques were applied to preprocess the data:
 - Renaming the columns
 - Removing irrelevant columns and rows
 
+### Data Visualization Insights
+From the univariate, bivariate and multivariate analysis, the following patterns were found:
+- An equal proportion of students have very high level of stress to a low stress level but high stress levels don't assure a great academic performance
+- A greater proportion of students who almost rarely engage in extracurricular activities have more than an average academic performance. An average proportion of students who engage in extracurricular activities daily also have more than an avearge academic performance.
+- Students with both light and heavy study loads respectively tend to perform well in their academics. Thw number of students with heavy study load who perform below average academically are quite a few. 
+
+
+### Notebook Structure
+This depicts the workflow followed in the notebook.
+
+```bash
+├── Data Collection
+├── Data Preprocessing
+│   ├── renaming columns
+├── Data Exploration
+├── Modelling
+│   ├── model training
+│   ├── model evaluation
+│   ├── saving the model
+```
