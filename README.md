@@ -30,7 +30,7 @@ This depicts the workflow followed in the notebook.
 ├── Data Preprocessing
 │   ├── renaming columns
 ├── Data Exploration
-├── Modelling
+├── Model Building
 │   ├── model training
 │   ├── model evaluation
 │   ├── saving the model
