@@ -13,7 +13,5 @@ These are the libraries I used for this project:
 ### Data Acquisition & Preprocessing Techniques
 The following techniques were applied to preprocess the data:
 - Renaming the columns
-- Removing missing values, irrelevant columns and rows
-- Treating erroneous values 
-- Converting data to the right data type
-- Label encoding 
+- Removing irrelevant columns and rows
+
