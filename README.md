@@ -1,7 +1,11 @@
 # Student-Stress-Factor-Machine Learning
 
+This Machine Learning project is aimed at understanding what impacts stress of Engineering students the most. The dataset for this project was gotten from [Kaggle](https://www.kaggle.com/datasets/samyakb/student-stress-factors) 
 
-This Machine Learning project is aimed at understanding what impacts stress of Engineering students the most. The dataset for this project was gotten from [Kaggle](https://www.kaggle.com/datasets/samyakb/student-stress-factors)
+### Overview
+In this project, I used python libraries to gain a deeper insight on the dataset. I went further to use machine learning techniques to build a model capabale of categorizing the 
+academic performance of students based on features such as level of stress, extracurricular activities and others. The model was deployed using streamlit to enable an interactive web 
+application that students can use. 
 
 ### Python Libraries
 These are the libraries I used for this project: 
@@ -35,3 +39,6 @@ This depicts the workflow followed in the notebook.
 │   ├── model evaluation
 │   ├── saving the model
 ```
+
+### Conclusion
+The project successfully achieved its objective of predict students' performance on a scale of 1-5. The representations are as follows: **5 - great**, **1 - bad** and **2-4 - average**. Check out the streamlit application. Further work will involve training our model with a larger dataset so that the model can learn enough variation. 
